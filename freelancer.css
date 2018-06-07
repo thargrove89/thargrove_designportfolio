@@ -36,12 +36,13 @@ hr.star-dark:after {
 }
 
 hr.star-light {
-  border-color: #fff ;
+  border-color: white;
 }
 
 hr.star-light:after {
-  color: #04e8ff;
-  background-color: #9ea0a0;
+  color: #061836;
+  background-color: transparent;
+  
 }
 }
 
@@ -50,8 +51,8 @@ hr.star-dark {
 }
 
 hr.star-dark:after {
-  color: #2C3E50;
-  background-color: white;
+  color: #061836;
+  background-color: transparent;
 }
 
 section {
@@ -94,7 +95,7 @@ section h2 {
 .scroll-to-top a {
   width: 3.5rem;
   height: 3.5rem;
-  background-color: rgba(4, 232, 255, 0.5);
+  background-color: #061836;
   line-height: 3.1rem;
 }
 
@@ -103,9 +104,9 @@ section h2 {
   padding-bottom: 1rem;
   font-weight: 700;
   font-family: 'Montserrat';
+}
   
  
-
 }
 
 
@@ -114,7 +115,7 @@ section h2 {
 
 #mainNav .navbar-brand {
   color: #fff;
-  
+   
 }
 
 #mainNav .navbar-nav {
@@ -128,21 +129,23 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #04e8ff;
+  color: red;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
+  color: white;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #04e8ff;
+  color: white;
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.8rem;
   
+}
+
 }
 
 
@@ -154,6 +157,7 @@ section h2 {
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
+	
   }
   #mainNav .navbar-brand {
     font-size: 2em;
@@ -166,7 +170,7 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #04e8ff;
+    background: none;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
@@ -184,6 +188,16 @@ section h2 {
 header.masthead {
   padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
+  text-align: center;
+  color: white;
+  background-image: url("../img/workdesk.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 header.masthead h1 {
@@ -226,11 +240,11 @@ header.masthead h2 {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color:rgb(4, 232, 255,0.6) ;
+  background-color: rgb(6, 24, 54);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
@@ -344,7 +358,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #061836;
 }
 
 a {
@@ -352,7 +366,7 @@ a {
 }
 
 a:focus, a:hover, a:active {
-  color: #04e8ff;
+  color: #061836;
 }
 
 .btn {
@@ -365,7 +379,8 @@ a:focus, a:hover, a:active {
 }
 
 .bg-secondary {
-  background-color:  #9ea0a0 !important;
+  background-color: #061836 !important;
+  
 }
 
 .text-primary {
@@ -373,22 +388,22 @@ a:focus, a:hover, a:active {
 }
 
 .text-secondary {
-  color: #2C3E50 !important;
+  color: #061836 !important;
 }
 
 .btn-primary {
-  background-color: #04e8ff;
-  border-color: #04e8ff;
+  background-color: #061836;
+  border-color: #061836;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #04e8ff;
-  border-color: #04e8ff;
+  background-color: #061836;
+  border-color: #061836;
 }
 
 .btn-secondary {
-  background-color: #04e8ff;
-  border-color: #04e8ff;
+  background-color: #061836;
+  border-color: #061836;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
