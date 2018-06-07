@@ -375,18 +375,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-    padding-top: calc(6rem + 72px);
-  padding-bottom: 6rem;
-  text-align: center;
-  color: white;
-  background-image: url("../img/workdesk.png");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+background-color: #9ea0a0 !important;
 }
 
 .bg-secondary {
