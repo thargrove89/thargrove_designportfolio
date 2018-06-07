@@ -185,7 +185,7 @@ section h2 {
   }
 }
 
-header.masthead {
+header.masthead bg-primary {
   padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
   text-align: center;
