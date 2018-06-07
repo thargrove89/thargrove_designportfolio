@@ -375,7 +375,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #9ea0a0;
+  background-color: #9ea0a0 !important;
 }
 
 .bg-secondary {
