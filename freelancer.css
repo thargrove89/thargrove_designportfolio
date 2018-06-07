@@ -190,7 +190,7 @@ header.masthead bg-primary {
   padding-bottom: 6rem;
   text-align: center;
   color: white;
-  background-image: url("img/workdesk.png")!important;
+  background-image: url("../img/workdesk.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -375,7 +375,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: transparent !important;
+  background-color: #9ea0a0 !important;
 }
 
 .bg-secondary {
